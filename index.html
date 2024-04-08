@@ -10,18 +10,19 @@
     <div class="container">
         <div class="traffic-light">
             <div class="painel">
-                <div class="light red-light">
+                <div id="red" class="light light-off">
 
                 </div>
-                <div class="light light-off">
+                <div id="yellow" class="light yellow-light">
 
                 </div>
-                <div class="light light-off">
+                <div id="green" class="light light-off">
 
                 </div>
             </div>
         </div>
-        <button>Click me!</button>
+        <button onclick="changeTrafficLight()">Click me!</button>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
